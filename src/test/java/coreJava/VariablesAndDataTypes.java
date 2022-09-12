@@ -6,7 +6,7 @@ public class VariablesAndDataTypes {
 
 		// a is variable here & 5 is its value
 		// int is a datatype
-		int a = 5 + 10;
+		int a = 15;
 		System.out.println(a);
 		a = 17;
 		System.out.println(a);
@@ -26,8 +26,11 @@ public class VariablesAndDataTypes {
 		
 		double f = 7544444444444555.0;
 		System.out.println(f);
+		
 		String text = "Good Morning! Amazon logo is present";
 		String text1 = "Good Morning! Amazon logo is not present";
+		
+		char character = 'a' ;
 		
 		boolean value = true;
 		boolean value1 = false;
@@ -35,6 +38,7 @@ public class VariablesAndDataTypes {
 		System.out.println(text);
 		System.out.println(value1);
 		System.out.println(text1);
+		System.out.println(character);
 
 	}
 
