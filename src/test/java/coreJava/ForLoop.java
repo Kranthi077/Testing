@@ -12,6 +12,8 @@ public class ForLoop {
 
 		for (int i = 0; i < length; ++i) {
 			System.out.println(arr1[i]);
+
+			System.out.println(arr1[i] + arr1[i + 1]);
 		}
 
 	}
