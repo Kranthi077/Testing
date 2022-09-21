@@ -25,6 +25,7 @@ public class ArrayListConcept {
 		}
 
 		a.remove(2);
+		a.size();
 
 		System.out.println("After removing 2nd element");
 		for (int i = 0; i < a.size(); i++) {

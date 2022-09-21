@@ -8,7 +8,7 @@ public class StringsConcept {
 
 	public static void main(String[] args) {
 		// String is not a dataTypes or Primitive dataType. String is basically a class
-		
+
 		// 1st way of declaring by new operator
 		String str = new String("Welcome to string");
 		String str3 = new String("Welcome to string");
@@ -31,5 +31,14 @@ public class StringsConcept {
 		for (int i = 0; i < str1.length(); i++) {
 			System.out.println(str1.charAt(i));
 		}
+
+		String[] var = str1.split("to");
+
+		System.out.println("size is " + var.length);
+		System.out.println(var[0]);
+		System.out.println(var[1]);
+		System.out.println(var[0].trim());
+		System.out.println(var[1].trim());
+		
 	}
 }
