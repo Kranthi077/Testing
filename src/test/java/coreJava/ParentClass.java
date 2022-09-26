@@ -8,7 +8,7 @@ public class ParentClass {
 	}
 
 	public void desielEngine() {
-		System.out.println("diesel engine code is present here");
+		System.out.println("Old model diesel engine code is present here");
 
 	}
 
@@ -20,6 +20,10 @@ public class ParentClass {
 	public void braking() {
 		System.out.println("braking code is present here");
 
+	}
+	public void colour() {
+
+		System.out.println("old colour");
 	}
 
 }
