@@ -45,7 +45,7 @@ public class ChildCar extends ParentClass {
 		swift2.colour();
 
 		ParentClass swift4 = new ChildCar();
-		ChildCar swift3 = new ParentClass();
+		//ChildCar swift3 = new ParentClass();
 
 	}
 
