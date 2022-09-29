@@ -22,7 +22,7 @@ public class MultiDimentionalArray {
 
 		// System.out.println();
 
-		int[][] f = { { 1, 6, 10 }, { 8, 2, 5 }, { 9, 4, 3 } };
+		int[][] f = {{ 8, 0, 10 }, { 8, 20, 15 }, { 6, 4, 1 }};
 
 		for (int i = 0; i < 3; i++) {
 			for (int j = 0; j < 3; j++) {
