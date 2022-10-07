@@ -24,7 +24,8 @@ public class Vaiables {
 	public static void main(String[] args) {
 		//object is called as instance of class
 		Vaiables stu1 = new Vaiables("Harish", 10, "Hyd");
-		Vaiables stu2 = new Vaiables("Rohit", 8, "Sec");
+		Vaiables stu2 = new Vaiables("Rohit", 8, "Hyd");
+		Vaiables stu3 = new Vaiables("Rahul", 9, "Hyd");
 		stu1.getName();
 		stu2.getName();
 		

@@ -2,6 +2,8 @@ package coreJava;
 
 import java.util.ArrayList;
 
+// collection packages
+
 public class ArrayListConcept {
 
 	public static void main(String[] args) {
