@@ -21,6 +21,7 @@ public class ArrayListConcept {
 		a.add(1);
 		a.add(78);
 		a.add('c');
+		a.add(true);
 
 		for (int i = 0; i < a.size(); i++) {
 			System.out.println(a.get(i));

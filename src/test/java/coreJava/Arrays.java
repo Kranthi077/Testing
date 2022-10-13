@@ -14,6 +14,7 @@ public class Arrays {
 		arr[2] = 8;
 		arr[3] = 0;
 		arr[4] = 5;
+		
 
 		System.out.println("Array values are printed below:");
 		System.out.println(arr[0]);
