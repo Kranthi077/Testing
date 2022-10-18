@@ -1,6 +1,7 @@
 package collectionsFrameworkDemo;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListDemo {
 
@@ -41,6 +42,13 @@ public class ArrayListDemo {
 		System.out.println(a.isEmpty());
 		System.out.println(b.isEmpty());
 		System.out.println(a.size());
+		System.out.println("");
+		for(int i=0; i<a.size();i++)
+		{
+			
+			System.out.println(a.get(i));
+		}
+	
 
 	}
 

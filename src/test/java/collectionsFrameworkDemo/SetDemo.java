@@ -31,7 +31,7 @@ public class SetDemo {
 		 * System.out.println(it.next()); System.out.println(it.next());
 		 * System.out.println(it.next());
 		 */
-
+				//false
 		while (it.hasNext()) {
 			System.out.println(it.next());
 		}
