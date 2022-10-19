@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
+
+import io.opentelemetry.exporter.logging.SystemOutLogExporter;
+
 import java.util.Set;
 
 public class HashMapDemo {
@@ -23,13 +26,14 @@ public class HashMapDemo {
 		h.get("Pavan");
 		// System.out.println(h.get("Rohit"));
 
-		Set set = h.entrySet();
+		Set set = h.entrySet(); // it is converting hasmap object to set
 		Iterator it = set.iterator();
 		while (it.hasNext()) {
-			// System.out.println(it.next());
-			Entry map = (Map.Entry) it.next();
-			System.out.println(map.getKey()+ "="+ map.getValue());
+			//System.out.println(it.next());
 
+			Entry map = (Map.Entry) it.next();
+			 System.out.println(map.getKey() + " = " + map.getValue());
+			//System.out.println(map.getValue());
 		}
 
 	}
