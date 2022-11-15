@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class ArrayListDemo {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//List can accept duplicate values
@@ -12,7 +11,6 @@ public class ArrayListDemo {
 		//Arrays size is fixed but arrayLists size is dynamic in nature
 		//We can insert values in between arraylist
 		//Lists are ordered lists
-		
 		
 		// The datatype entered between arrowkeys<> are called as generics
 		ArrayList<String> a = new ArrayList<String>();
